@@ -1,0 +1,45 @@
+.body { background: #EDEAE9;
+        margin: 50px;}
+
+
+ .title { text-align: center;
+ 	       text-decoration: underline;
+ 	       font-size: 50px; 
+ 	       color: #907C75 ;}
+
+.subtitle { text-align: center;
+             text-decoration: underline;
+             color: #907C75; }
+
+.imagen { text-align: center;
+          max-height: 800px;
+          max-width: 800px; }  
+
+.text1 {font-size: 20px;
+         }
+
+.maps { text-align: center; }
+
+
+.text2 {font-size: 50px;
+        text-decoration: underline; 
+         text-align: center;
+          color: #907C75 ;}  
+
+
+
+.ingredientes { text-decoration: underline;
+                 font-size: 30px; } 
+
+
+.text3 { font-size: 50px;
+        text-decoration: underline; 
+         text-align: center; 
+         color: #907C75 ;}
+
+
+.video {text-align: center;  }
+
+
+.preparacion { text-align: justify-all;
+                font-size: 20px;}                     	                                
