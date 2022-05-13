@@ -1,4 +1,6 @@
 # potrero-tp
-Trabajo practico para potrero digital
-no pude terminar el navar ni el footer a tiempo pero estructure lo mejor que pude
-pd:no achique la pantalla de la pagina que se rompe todo
+Se agrego:
+Se fixeo las rutas del header con sus respectivas paginas
+Se ajusto algunas mdidas del main
+Iconos al footer
+Se agrego la pagina de contactos con su respectivo formulario
