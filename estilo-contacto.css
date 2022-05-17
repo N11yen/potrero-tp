@@ -1,0 +1,98 @@
+* { font-family: Playfair Display;
+ }
+body { background-image: linear-gradient( to left,#7E7876,#994123);
+        }
+
+.title{ color:
+        justify-content: center;
+        padding: 50px;
+        text-align: center;
+        font-size: 50px;
+        text-decoration: underline;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  padding: 17px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 10%         ; 
+  text-align: center; 
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
+.navbar a {
+    float: none;
+    display: inline;
+    width: 100%;
+    text-align: left; 
+  }
+
+  h1{ font-size: 30px;
+    padding: 1rem;
+
+  }
+
+.form-container{ 
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+margin: 40px;
+margin: 50px 40px;
+
+  }
+
+.form {
+  min-width: 400px;
+  flex: 1;
+  text-align: center;
+  padding: 30px;
+}
+
+.form-imput{
+  width: 100%;
+  padding: 9px 0;
+
+}
+.form textarea{
+  min-height:150px;
+}
+.form-img{
+  flex: 0.5;
+}
+
+.form-img img{
+  width: 100%;
+}
+ footer{  display: flex;
+      width: 100%;
+      height: 81px; 
+      position: bottom fixed;    
+  }
+  footer p{
+  color: #AFA4A1;
+  margin: 10px;
+  padding: 10px;
+}
+   .footer-items{ 
+    display: inline-table;
+    padding: 50px;
+}
+  footer img{
+    min-height: 100px;
+    max-height: 100px;
+  }
