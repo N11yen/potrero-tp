@@ -1,98 +1,87 @@
-.body { background-image: linear-gradient(to left,#7E7876,#994123);
-        margin: 0 150px ;}
-
-.title{ color: #AFA4A1;
-        justify-content: center;
-        padding: 50px;
-        text-align: center;
-        font-size: 50px;
-        text-decoration: underline;}
-
-.navbar {
-  width: 100%;
-  background-color: #555;
-  overflow: hidden;
+body {
+  background-image: url(https://previews.123rf.com/images/karandaev/karandaev1602/karandaev160200312/52148289-mesa-de-la-cocina-de-%C3%A9poca-en-blanco-con-receta-de-cocina-de-libros-utensilios-e-ingredientes-vista-.jpg) ;
+  background-position: center;
+   background-size: cover;
+   font-size: 16px;
+   font-family: 'Macondo', cursive;
 }
 
-.navbar a {
-  float: left;
-  padding: 17px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  width: 10%         ; 
-  text-align: center; 
-}
-
-.navbar a:hover {
-  background-color: #000;
-}
-
-
-.navbar a.active {
-  background-color: #04AA6D;
-}
-.navbar a {
-    float: none;
-    display: inline;
-    width: 100%;
-    text-align: left; 
-  }
-.cont{
-  display: inline;
-  float: left;
-}
-.cont h3 {
-   font-size: 30px;
-   color: #AFA4A1;
-   text-decoration: underline;
-   text-align: center;
-}
-.cont p { 
-  text-align: cetnter;
-  font-size: 20px;
-  color: black;
-}
-
-.ingredientes{padding-right: 110px;
-  padding-bottom: 40px;
-  height: 500px 1fr;
-  float:right;
-  font-size:20px;
-  text-align:justify colum;
-
-}
-
-.text3{ color: #AFA4A1;
-  float: center ;
-  font-size: 30px;
-  text-align:center;
+h1{text-align: center;
   text-decoration: underline;
+  color: white;
+  padding: 3rem;
 }
 
-.instructions{
-  padding-left: 60px;
-  float: center;
-  width: 100% 1fr;
-  height: 500px; 
-  
-}
-.instructions iframe {padding: 20px;
-  float: left;
-  height: 400px;
-  width: 400px;
-  
+nav{
+  display: flex;
+ flex-direction: row;
+  background-color: black;
+ 
 }
 
-.footer{overflow: hidden;
-  justify-content: center;
-  box-sizing: 1;
-  padding-top: 10px;
-  margin-top:50px;
-  position: relative;
-  height: 150px;
-  width: 100%;
+nav a{ padding: 14px 17px;
+  color: whitesmoke;
+
 }
-.footer a {padding: 50px;
-  text-decoration: none;
- font-size: 30px;}
+nav a :hover{
+  background-color: white;
+}
+
+.row{ border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+aside{
+  flex: 50%;
+  background-image: url(https://thumbs.dreamstime.com/b/fondo-de-textura-papel-hoja-libro-en-blanco-libros-escuela-201119669.jpg);
+}
+
+aside h2{
+  font-size: 1fr;
+  font-family: 'Macondo', cursive;
+  text-decoration: underline;
+text-align: center;
+margin: 16px;
+}
+
+aside p{
+  font-family: 'Macondo', cursive;
+  font-size: 17px;
+}
+section{ width: 50%;
+  padding-top: 2rem;
+  flex: 50%;
+  
+}
+.carousel-item{
+  padding: 10px;
+}
+
+}
+footer{ background-color: black; 
+  flex-direction: grow;
+    display: flex;
+      width: 100%;
+      height: 100px; 
+      position: bottom fixed;    
+  }
+footer p{color: white;
+  font-size: 20px;
+  margin: 10px;
+  padding: 1rem;
+}
+footer span{
+  font-size: 30px;
+}
+
+  .footer-items{ 
+    justify-content: space-around;
+    display: flex
+    padding: 50px;
+    margin: 1rem;
+  }
+  footer img{ 
+    min-height: 50px;
+    max-height: 50px;
+  }
+}
