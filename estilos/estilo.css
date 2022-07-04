@@ -14,6 +14,21 @@ h1{
   padding: 2rem;
   color: #4F3913;
 }
+.info1{
+  display: flex
+  justify-content: space-around;
+  padding: 50px;
+  margin: 1rem;
+  font-family: 'Macondo', cursive;
+  font-size:2rem;
+  color: #4F3913;
+}
+h3{
+  padding: 50px;
+  margin: 1rem;
+  font-size:2rem;
+
+}
 h2{font-family: 'Macondo', cursive;
   text-align: center;
   color: #4F3913;
@@ -62,6 +77,13 @@ footer span{
     display: flex
     padding: 50px;
     margin: 1rem;
+  }
+  .autor{
+    justify-content: space-around;
+    display: flex
+    padding: 50px;
+    margin: 1rem;
+    
   }
   footer img{ 
     min-height: 50px;

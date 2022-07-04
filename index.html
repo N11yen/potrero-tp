@@ -15,19 +15,24 @@
         alert("Bienvenidos a Recetas de Potrerodigital")
     </script>
  </head>
-  <body>
+  <body id="body1">
+    <div class="sticky-top"> <nav >
+      <ul id="nav1" class="nav nav-pills">
+       <li ><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+       <li ><a href="recetas/index2.html" class="nav-link">Receta siguiente</a></li>
+       <li ><a href="https://www.potrerodigital.org/" class="nav-link">Sobre nosotros</a></li>
+       <li ><a href="https://docs.google.com/forms/d/e/1FAIpQLSewgqCML-kaq0u8sA5TeWaEYICE4IKQJ-LbTAp8xN9ORsQdAw/viewform?embedded=true" class="nav-link">Contactenos</a></li>
+       <button  onclick="cambiarfondo()">Sitio Nocturno</button>
+      </ul>
+     </nav> 
+    </div>
    <header id="header1">
     <h1>Recetas PotreroDigital</h1>
    </header>
-    <nav >
-     <ul id="nav1" class="nav nav-pills">
-      <button  onclick="cambiarfondo()">Sitio Nocturno</button>
-      <li ><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-      <li ><a href="receta2/index.html" class="nav-link">Receta siguiente</a></li>
-      <li ><a href="https://www.potrerodigital.org/" class="nav-link">Sobre nosotros</a></li>
-      <li ><a href="contacto/index.html" class="nav-link">Contactenos</a></li> 
-     </ul>
-    </nav> 
+   <div class="info1">
+    <h3> Bienvenidos a Recetas de PotreroDigital</h3>
+    <p> A continuancion les presentaremos en este portal las distintas recetas disponibles para que usted pueda elaborar en la comodidad de su casa , como asi tambien puede ponerse en contacto con nosotros para sugerirnos nuevas recetas que quiera ver agregadas a nuestra pagina.</p>
+   </div>
      <section id="section1">
       <div class="menu">
        <h2>Menu de recetas potrero</h2>
@@ -83,11 +88,13 @@
          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
         </a>
         <span class="mb-3 mb-md-0 ">Nuestras Redes:</span>
+        <button class="autor" onclick="copy()">Copyright ©</button>
        </div>
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
          <li class="ms-3"><a class="text-muted" href="https://api.whatsapp.com/send?phone=2284239669"><svg class="bi" width="24" height="24"><img src="imagenes/whatsapp.png"><use xlink:href="#twitter"></use></svg></a></li>
          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"><img src="imagenes/instagram.png"></use></svg></a></li>
          <li class="ms-3"><a class="text-muted" href="https://www.facebook.com"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"><img src="imagenes/facebook.png"></use></svg></a></li>
+         <li class="ms-3"><a class="text-muted" href="https://docs.google.com/forms/d/e/1FAIpQLSewgqCML-kaq0u8sA5TeWaEYICE4IKQJ-LbTAp8xN9ORsQdAw/viewform?embedded=true" width="640" height="1435" frameborder="0" marginheight="0" marginwidth="0"></iframe><svg class="bi" width="24" height="24"><img src="imagenes/correo.png"><use xlink:href="googleform"></use></svg></a></li>
         </ul>
       </footer>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
